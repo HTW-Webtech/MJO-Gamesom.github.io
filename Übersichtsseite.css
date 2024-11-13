@@ -239,7 +239,7 @@ footer {
 
 /* Stil für den Text im Community-Bereich (p1) */
 .community p {
-    color: #00000;
+    color: #000000;
     font-size: 1.2rem; /* Setzt die Schriftgröße für den Text */
     margin-bottom: 30px; /* Fügt einen Abstand unter dem Text hinzu */
 }
@@ -364,23 +364,24 @@ h6{
     text-align: center;
     flex-direction: column; /* Vertikale Ausrichtung von Bild und Text */
     align-items: center; /* Zentriert das Bild und den Text */
-    width: 80%;      /* Bildbreite auf 70% der Containerbreite */
+    width: 80%; /* Bildbreite auf 70% der Containerbreite */
 
 
-.category-image {
-    width: 50%;
-    height: auto;
-    border-radius: 10px;
-}
+    .category-image {
+        width: 50%;
+        height: auto;
+        border-radius: 10px;
+    }
 
-.category-link {
-    display: block;
-    margin-top: 10px;
-    color: #1e90ff;
-    text-decoration: none;
-    font-weight: bold;
-}
+    .category-link {
+        display: block;
+        margin-top: 10px;
+        color: #1e90ff;
+        text-decoration: none;
+        font-weight: bold;
+    }
 
-.category-link:hover {
-    text-decoration: underline;
+    .category-link:hover {
+        text-decoration: underline;
+    }
 }
